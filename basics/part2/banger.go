@@ -6,6 +6,7 @@ import (
 	"strings"
 )
 
+// Usage go run banger.go Hello
 func main() {
 	msg := os.Args[1]
 	l := len(msg)
